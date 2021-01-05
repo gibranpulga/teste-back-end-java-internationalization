@@ -1,23 +1,28 @@
-Teste para Desenvolvedor Back-end Java - Internationalization
+Test for Java Back-end Developer - Internationalization
 
-Olá ! Bolamos esse teste pra entender melhor como você aborda o problema proposto, e como você gosta de codificar. Tentamos aproximar o máximo possível da nossa realidade, utilizando tecnologias que usamos e que facilmente podem ser encontrados tutoriais na internet.
-Caso não consiga ou queira fazer algum passo, não tem problema. Não vamos te desqualificar por isso. Nesse caso você pode comentar sobre o ponto e o porquê não o fez. Esperamos que goste!
+Hi ! 
+We designed this test to better understand how you approach problems solving, and how you like to code. We try to get as close as possible to our reality, using technologies that we use and that tutorials can easily be found on the internet.
+If you are unable or don't want to do one of the requirements, no problem. We will not disqualify you for that. In that case you can comment on it and tell why you skipped. 
+We hope you enjoy it!
 
-Seguem as tarefas. As tarefas consideradas bônus, caso não tenha tempo ou prefira não fazer, por favor comentar como faria ou como seria a arquitetura técnica:
+Below are the tasks. 
+Some of the tasks are considered as bonuses, if you do not have time or prefer not to do, you can comment on how you would do or how the technical architecture would be:
 
-- Criar uma API de um serviço de internacionalização. Utilizar Spring BOOT;
-- Essa API deve conter o nome de todos os países do mundo e suas respectivas cidades e código postal (Postal code ou Zip code);
-- Os nomes têm que ser internacionalizados. Pelo menos 5 linguagens: português, espanhol, inglês, alemão, francês;
-- DB pode ser a vontade (sugestão h2, postgres ou mongo);
-- Adicionar swagger. Dica: documentar todos os campos; 
-- Não esquecer dos unit tests; 
-- Entregar o link do repositório em modo privado (preferência gitlab) com readme.MD com instruções de como rodar localmente e resumo técnico;
+- Create an API for an internationalization service. Use Spring BOOT;
+- This API must contain the name of all countries in the world and their respective cities;
+- Names must be internationalized. At least 5 languages: English, Spanish;
+- DB can be at will (suggestion h2, postgres or mongo);
+- Add swagger. Tip: document all fields;
+- Do not forget the unit tests;
+- Deliver the repository link in private mode (gitlab preference) with readme.MD with instructions on how to run locally and technical summary.
 
-Bônus: Criar dockerfile e docker-compose.yaml pra fazer o deploy local como container do docker.
-Bônus: Deploy em algum cloud provider (preferência AWS, pode ser no EC2 mesmo, ou Azure ou Heroku);
+- Bonus: add also the postal code (Postal code or Zip code);
+- Bonus: add also Portuguese, German, French;
+- Bonus: Create dockerfile and docker-compose.yaml to deploy locally as a docker container;
+- Bonus: Deploy in some cloud provider (preferably AWS, can be in EC2, or Azure or Heroku);
 
-Dicas de links para pesquisa:
-https://www.geonames.org/  
+Search tips on how to get the data:
+https://www.geonames.org/
 https://stackoverflow.com/questions/13678901/word-cities-towns-countries-database-for-mongodb-or-in-json
 https://www.ip2location.com/free/city-multilingual
 https://stackoverflow.com/questions/10260559/is-there-a-public-dataset-with-the-complete-i18n-list-of-countries-states-lang
